@@ -35,7 +35,17 @@ const styles = StyleSheet.create({
   },
   titleStyle: {
     fontSize: 10
+  },
+  modalContainer: {
+    flex: 1,
+    marginTop: 30,
+    backgroundColor: 'white'
+  },
+  closeButtonStyle: {
+    alignSelf: 'flex-end',
+    padding: 20
   }
+
 })
 
 export default styles;
