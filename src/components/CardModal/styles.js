@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
   },
   closeButtonStyle: {
     alignSelf: 'flex-end',
-    padding: 20
+    padding: 5
   }
 
 })

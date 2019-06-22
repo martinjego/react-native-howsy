@@ -38,7 +38,7 @@ class Card extends Component {
         </View>
         <View style={styles.userContainer}>
           <Image style={styles.imageContainer} source={{ uri: thumbnailUrl}} />
-          <Text style={styles.titleStyle}>{title}</Text>
+          <Text style={styles.titleStyle}>{title.slice(0, 10)}</Text>
         </View>
       </TouchableOpacity>
     )
